@@ -1,5 +1,5 @@
 [package]
-name = "pumpfun-sdk"
+name = "pumpswap-sdk"
 version = "1.0.0"
 edition = "2021"
 authors = ["Anh Dao <anh.devdao@gmail.com>"]
@@ -20,8 +20,8 @@ no-log-ix-name = []
 cpi = ["no-entrypoint"]
 
 [dependencies]
-anchor-gen = "0.3.1"
-anchor-lang = "0.30.1"
+anchor-gen = "0.4.1"
+anchor-lang = { git = "https://github.com/coral-xyz/anchor.git", package = "anchor-lang", rev = "fa381028b6c28ab865644ac9ab02948ba30a89a2", features = ["init-if-needed"] }
 
 [package.metadata.workspaces]
 independent = true
