@@ -5747,19 +5747,6 @@
           {
             "name": "is_cashback_enabled",
             "type": "bool"
-          },
-          {
-            "name": "buyback_fee_recipients",
-            "type": {
-              "array": [
-                "pubkey",
-                8
-              ]
-            }
-          },
-          {
-            "name": "buyback_basis_points",
-            "type": "u64"
           }
         ]
       }
